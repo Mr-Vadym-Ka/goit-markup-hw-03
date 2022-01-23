@@ -50,7 +50,7 @@ body {
     margin: 0 auto;
 }
 .section {
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
     padding-bottom: 94px;
     padding-top: 94px;
 }
@@ -131,7 +131,7 @@ body {
 }
 .header-list .header-item + .header-item {
     margin-left: 50px;
-    background: red;
+    /* background: red; */
 }
 /* .header-list .header-item:last-child {
     margin-right: 0;
@@ -148,13 +148,24 @@ body {
     color: var(--text-color);
     text-decoration: none;
 }
-
+.contacts-item {
+    margin-left: 50px;
+}
 /*-------Features--------*/
 .features {
     margin-top: 0;
 }
 .features-list {
     display: flex;
+    flex-wrap: wrap;
+}
+.features-item + .features-item {
+    margin-left: 30px;
+}
+.features-list .features-item {
+    width: 270px;
+    height: 101px;
+    /*  background-color: red; */
 }
 .features-list-name {
     font-weight: 700;
@@ -178,14 +189,18 @@ body {
 .work-pics-title {
     margin-bottom: 50px;
 }
+.work-pics-list {
+    display: flex;
+    width: 370px;
+}
+.work-pics-item + .work-pics-item {
+    margin-left: 30px;
+}
 /*-------OUR TEAM -------*/
 .team {
     margin-top: 0;
     background-color: var(--team-background);
 }
-/*.team-title {
-    margin-top: 94px;
-}*/
 .section-title {
     font-weight: 700;
     font-size: 36px;
@@ -194,7 +209,14 @@ body {
     letter-spacing: 0.03em;
     color: var(--title-color);
 }
+.team-list {
+    display: flex;
+    margin-left: -30px;
+}
+
 .team-item {
+    width: calc(100% / 4 - 30px);
+    margin-left: 30px;
     background-color: var(--team-item-background);
 }
 .team-item-member {
@@ -251,6 +273,7 @@ body {
 .button-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 34px;
 }
 .button-list .item-btn + .item-btn {
     margin-left: 8px;
@@ -272,6 +295,9 @@ body {
     background-color: var(--accent-color);
     color: #ffffff;
 }
+.sort-btn {
+    cursor: pointer;
+}
 .ourwork-img-title {
     font-weight: 700;
     font-size: 18px;
@@ -292,6 +318,14 @@ body {
     height: 1px;
     margin: -1px;
 }
-.sort-btn {
-    cursor: pointer;
+.img-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -30px;
+    margin-bottom: -30px;
+}
+.list-item {
+    width: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-bottom: 30px;
 }
