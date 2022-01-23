@@ -8,6 +8,7 @@
     --img-title-color: #212121;
     --team-background: #f5f4fa;
     --team-item-background: #ffffff;
+    --border-item-color: #eeeeee;
 }
 p,
 h1,
@@ -97,10 +98,11 @@ body {
     letter-spacing: 0.06em;
     color: var(--hero-btntxt-color);
     background: var(--hero-btnbkg-color);
-    margin-top: 94px;
+    margin: 94px auto 200px;
+    /* margin-top: 94px;
     margin-bottom: 200px;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; */
 }
 .header {
     padding-top: 24px;
@@ -109,6 +111,7 @@ body {
 .header-line {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid #ececec;
 }
 .header-link {
     font-weight: 500;
@@ -153,6 +156,7 @@ body {
 .contacts-item {
     margin-left: 50px;
 }
+
 /*-------Features--------*/
 .features {
     margin-top: 0;
@@ -330,4 +334,9 @@ body {
     width: calc(100% / 3 - 30px);
     margin-left: 30px;
     margin-bottom: 30px;
+}
+.border-bottom-text {
+    border-bottom: 1px solid var(--border-item-color);
+    border-right: 1px solid var(--border-item-color);
+    border-left: 1px solid var(--border-item-color);
 }
