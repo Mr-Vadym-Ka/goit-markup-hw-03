@@ -103,15 +103,20 @@ body {
     border-color: transparent;
 }
 .header {
-    padding-top: 24px;
-    border-bottom: 1px #ccc;
+    /* padding-top: 24px; */
+    border-top: 1px #ffffff;
+    border-bottom: 1px solid #ececec;
 }
 .header-line {
+    padding-top: 24px;
+    padding-bottom: 25px;
     display: flex;
     align-items: center;
     border-bottom: 1px solid #ececec;
 }
 .header-link {
+    padding-top: 32px;
+    padding-bottom: 32px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
