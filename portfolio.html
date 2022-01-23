@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel = “preconnect” href = “https://fonts.gstatic.com”>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <header class="header">
+        <div class="container header-line">
         <a href="#" class="logo"><span class="logo-first">Web</span>Studio</a>
         <nav class="navigation">
             <ul class="header-list list">
@@ -29,16 +30,18 @@
             <li class="contacts-item"><a href="tel:+380991111111" class="contacts-tel contacts-link">+38 099 111 11 11</a>
             </li>
         </ul>
+        </div>
     </header>
     <main>
-        <section class="sort">
+        <section class="sort section">
+            <div class="container">
             <h1 class="visually-hidden">hide</h1>
             <ul class="button-list list">
-                <li><button class="button btn-current sort-btn">Все</button></li>
-                <li><button class="button sort-btn">Веб-сайты</button></li>
-                <li><button class="button sort-btn">Приложения</button></li>
-                <li><button class="button sort-btn">Дизайн</button></li>
-                <li><button class="button sort-btn">Маркетинг</button></li>
+                <li class="item-btn"><button class="button btn-current sort-btn">Все</button></li>
+                <li class="item-btn"><button class="button sort-btn">Веб-сайты</button></li>
+                <li class="item-btn"><button class="button sort-btn">Приложения</button></li>
+                <li class="item-btn"><button class="button sort-btn">Дизайн</button></li>
+                <li class="item-btn"><button class="button sort-btn">Маркетинг</button></li>
             </ul>
             <ul class="img-list list">
                 <li>
@@ -87,9 +90,11 @@
                     <p class="ourwork-img-description">Приложение</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <a href="#" class="footer-logo"><span class="logo-first">Web</span>Studio</a>
         <address id="contacts" class="footer-contacts">
             <ul class="footer-contacts-list list">
@@ -100,6 +105,7 @@
                         11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>

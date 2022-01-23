@@ -5,15 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WebStudio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
+        <header class="header section">
+            <div class="container header-line">
         <a href="#" class="logo"><span class="logo-first">Web</span>Studio</a>
         <nav class="navigation">
             <ul class="header-list list">
@@ -26,14 +27,18 @@
                 <li class="contacts-item"><a href="mailto:info@example.com" class="contacts-mail contacts-link">info@example.com</a></li>
                 <li class="contacts-item"><a href="tel:+380991111111" class="contacts-tel contacts-link">+38 099 111 11 11</a></li>
             </ul>
+            </div>
     </header>
     <main>
-        <section class="hero">
+        <section class="hero section">
+            <div class="container">
             <h1 class="hero-name">эфективные решения для вашего бизнеса</h1>
             <button type="button" class="hero-btn sort-btn">Заказать услугу</button>
+            </div>
         </section>
             <!--Features-->
-        <section>
+        <section class="features section">
+            <div class="container">
             <h2 class="visually-hidden">hide</h2>
             <ul class="features-list list">
                 <li class="features-item">
@@ -53,18 +58,22 @@
                     <p class="features-list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
+            </div>
         </section>
             <!--Our work-->
-        <section class="work-pics">
+        <section class="work-pics section">
+            <div class="container">
             <h2 class="work-pics-title section-title">Чем мы занимаемся</h2>
             <ul class="work-pics-list list">
                 <li class="work-pics-item"><img src="./img/box-1.jpg" width="370" alt="рабочее место с планшетом"></li>
                 <li class="work-pics-item"><img src="./img/box-2.jpg" width="370" alt="рабочее место с ноутбуком"></li>
                 <li class="work-pics-item"><img src="./img/box-3.jpg" width="370" alt="планшет с палитрой"></li>
             </ul>
+            </div>
         </section>
             <!--Our team-->
-        <section class="team">
+        <section class="team section">
+            <div class="container">
             <h2 class="team-title section-title">Наша команда</h2>
             <ul class="team-list list">
                 <li class="team-item">
@@ -88,9 +97,11 @@
                     <p lang="en" class="team-member-title">UI Designer</p>
                 </li>
             </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
+        <div class="container">
         <a href="#" class="footer-logo"><span class="logo-first">Web</span>Studio</a>
         <address id="contacts" class="footer-contacts">
             <ul class="footer-contacts-list list">
@@ -101,6 +112,7 @@
                         11</a></li>
             </ul>
         </address>
+        </div>
     </footer>
 </body>
 </html>
